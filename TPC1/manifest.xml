@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<doc>
+    <meta>
+        <title>TPC1: Construir páginas em HTML </title>
+        <date>13-02-2024</date>
+        <author>
+            <id>a100691</id>
+            <nome>Francisco Manuel Afonso</nome>
+        </author>
+        <uc>
+            <sigla>EngWeb2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Construir uma página inicial que liste todos os nomes das ruas, com links para páginas específicas de cada rua.</p>
+        <p>Criar páginas individuais para cada rua, contendo informações detalhadas sobre a rua e um link para retornar à página de índice.</p>
+        <p>Script geral para todas as ruas dentro do material base fornecido<p>
+    </resumo>
+    <resultados>
+        <resultado>Para a página de índice inicial, através da biblioteca os do Python, listei os nomes dos ficheiros .xml de modo a saber todas as ruas existentes. Depois ordenei toda a lista de ruas.</resultado>
+        <resultado>Cada nome de rua tem uma hiperligação para o .hmtl da mesma. Para fazer o parse de cada um dos .xml decidi utilizar as bibliotecas xmltodict e BeautifulSoup, por facilidade em relação à xml.etree.ElementTree. Para cada uma das página temos as seguintes informações:</resultado>
+        <resultado>Nome da rua e o seu número lido através das tags meta do xml.</resultado>
+        <resultado>Informações acerca da rua</resultado>
+        <resultado>Lista de casas lida através da tag lista-casas.</resultado>
+        <resultado>Imagem antigas com várias vistas direcionando a imagem para o seu respetivo path.</resultado>
+        <resultado>Imagens atuais das ruas. Como para cada rua existiam duas vistas PNG com o nome da rua como nome do ficheiro era possível aceder às mesmas através do script.</resultado>
+        <resultado>Hiperligação para voltar para o índice inicial.</resultado>
+    </resultados>
+</doc>
