@@ -9,7 +9,7 @@
 ### Página de Índice Inicial:
 - Utilizando a biblioteca `os` do Python, foram obtidos os nomes dos arquivos `.xml` que representam as ruas existentes.
 - A lista de ruas foi ordenada para apresentação.
-- Cada rua possui um hyperlink para sua página HTML correspondente, gerado por um script Python.
+- Cada rua possui um hyperlink para sua página HTML correspondente, gerado por um *script* Python.
 
 ### Páginas Individuais das Ruas:
 - O parse de cada arquivo `.xml` foi realizado com as bibliotecas `xmltodict` e `BeautifulSoup`.

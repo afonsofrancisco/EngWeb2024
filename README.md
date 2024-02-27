@@ -9,3 +9,5 @@ Trabalho realizado no contexto da Unidade Curricular de Engenharia Web
 **Número:** a100691
 
 **Email:** a100691@alunos.uminho.pt
+
+## Lista de Parágrafos
